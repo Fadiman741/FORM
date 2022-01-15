@@ -29,28 +29,28 @@ function App() {
 					placeholder="First Name"
 					name="FirstName"
 				/>
-				<span>Please type first name</span>
+				
 				<input
 					value={values.lastName}
 					className="form-field"
 					placeholder="Last Name"
 					name="LastName"
 				/>
-				<span>Please type last name</span>
+				
 				<input
 					value={values.idNumber}
 					className="form-field"
 					placeholder="ID Number"
 					name="IDNumber"
 				/>
-				<span>Please type ID number</span>
+				
 				<input
 					value={values.occupation}
 					className="form-field"
 					placeholder="Occupation"
 					name="occupation"
 				/>
-				<span>Please type your Occupation</span>
+			
 				<input
 					value={values.gender}
 					className="form-field"
