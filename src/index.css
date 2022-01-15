@@ -1,0 +1,33 @@
+body {
+background: #76b852;
+justify-content: center;
+display: flex;
+}
+.form-container{
+	margin: auto;
+	width: 320px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0.24);
+	
+}
+.my-form{
+	display: flex;
+	flex-direction: column;
+	padding:10px;
+	justify-content: space-evenly;
+	background: white;
+
+
+}
+.form-field{
+	margin: 10px 0 10px 0;
+	padding:10px;
+	font-size: 16px;
+}
+button{
+	background: #4caf50;
+}
+span{
+	font-family: "Roboto",sans-serif;
+	font-size: 14px;
+	color:red;
+}
